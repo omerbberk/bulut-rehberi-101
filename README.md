@@ -69,7 +69,7 @@ tests/
 ### Kendi projene ekle
 
 ```bash
-git clone https://github.com/<kullanici>/claude-code-bulut-rehberi.git
+git clone https://github.com/omerbberk/claude-code-bulut-rehberi.git
 bash claude-code-bulut-rehberi/scripts/projeye-ekle.sh /proje/dizinin
 ```
 

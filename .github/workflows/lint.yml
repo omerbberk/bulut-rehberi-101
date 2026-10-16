@@ -4,6 +4,10 @@ on:
   push:
   pull_request:
 
+# Public repo: iş akışı yalnızca kodu okuyabilsin
+permissions:
+  contents: read
+
 jobs:
   check:
     runs-on: ubuntu-latest
