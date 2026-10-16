@@ -69,8 +69,8 @@ tests/
 ### Kendi projene ekle
 
 ```bash
-git clone https://github.com/omerbberk/claude-code-bulut-rehberi.git
-bash claude-code-bulut-rehberi/scripts/projeye-ekle.sh /proje/dizinin
+git clone https://github.com/omerbberk/bulut-rehberi.git
+bash bulut-rehberi/scripts/projeye-ekle.sh /proje/dizinin
 ```
 
 Betik var olan dosyaların üzerine yazmaz. `.claude/settings.json` zaten varsa hook'u `jq` ile ekler, ikinci kez çalıştırıldığında çoğaltmaz. Ardından değişiklikleri commit edip push et; bir sonraki bulut oturumu bunları kullanır. İlk mesajda Claude şöyle bir özet görür:
