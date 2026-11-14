@@ -1,0 +1,20 @@
+{
+  "attribution": {
+    "commit": "",
+    "pr": "",
+    "sessionUrl": false
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ \"${CLAUDE_CODE_REMOTE:-}\" = true ] || exit 0; git -C \"$CLAUDE_PROJECT_DIR\" config user.name omerbberk && git -C \"$CLAUDE_PROJECT_DIR\" config user.email 121737271+omerbberk@users.noreply.github.com"
+          }
+        ]
+      }
+    ]
+  }
+}
